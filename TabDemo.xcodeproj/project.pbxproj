@@ -12,6 +12,16 @@
 		D85A02E5211A919A009CF7AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85A02E3211A919A009CF7AE /* Main.storyboard */; };
 		D85A02E7211A919E009CF7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85A02E6211A919E009CF7AE /* Assets.xcassets */; };
 		D85A02EA211A919E009CF7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85A02E8211A919E009CF7AE /* LaunchScreen.storyboard */; };
+		D85A02FA211A91DF009CF7AE /* SDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F2211A91DF009CF7AE /* SDBaseViewController.swift */; };
+		D85A02FB211A91DF009CF7AE /* SDBaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F3211A91DF009CF7AE /* SDBaseDataModel.swift */; };
+		D85A02FC211A91DF009CF7AE /* SDBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F4211A91DF009CF7AE /* SDBaseTableViewCell.swift */; };
+		D85A02FD211A91DF009CF7AE /* SDBaseCollectionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F5211A91DF009CF7AE /* SDBaseCollectionDataModel.swift */; };
+		D85A02FE211A91DF009CF7AE /* SDBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F6211A91DF009CF7AE /* SDBaseViewModel.swift */; };
+		D85A02FF211A91DF009CF7AE /* SDCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F7211A91DF009CF7AE /* SDCollectionView.swift */; };
+		D85A0300211A91DF009CF7AE /* SDBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F8211A91DF009CF7AE /* SDBaseTableView.swift */; };
+		D85A0301211A91DF009CF7AE /* SDBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85A02F9211A91DF009CF7AE /* SDBaseCollectionViewCell.swift */; };
+		D85C0FA7211A9D6A00B6F616 /* SDLabelTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C0FA6211A9D6A00B6F616 /* SDLabelTableViewCellModel.swift */; };
+		D85C0FA9211A9D9100B6F616 /* SDLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C0FA8211A9D9100B6F616 /* SDLabelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		D85A02E6211A919E009CF7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D85A02E9211A919E009CF7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D85A02EB211A919E009CF7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85A02F2211A91DF009CF7AE /* SDBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseViewController.swift; sourceTree = "<group>"; };
+		D85A02F3211A91DF009CF7AE /* SDBaseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseDataModel.swift; sourceTree = "<group>"; };
+		D85A02F4211A91DF009CF7AE /* SDBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseTableViewCell.swift; sourceTree = "<group>"; };
+		D85A02F5211A91DF009CF7AE /* SDBaseCollectionDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseCollectionDataModel.swift; sourceTree = "<group>"; };
+		D85A02F6211A91DF009CF7AE /* SDBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseViewModel.swift; sourceTree = "<group>"; };
+		D85A02F7211A91DF009CF7AE /* SDCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCollectionView.swift; sourceTree = "<group>"; };
+		D85A02F8211A91DF009CF7AE /* SDBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseTableView.swift; sourceTree = "<group>"; };
+		D85A02F9211A91DF009CF7AE /* SDBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		D85C0FA6211A9D6A00B6F616 /* SDLabelTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLabelTableViewCellModel.swift; sourceTree = "<group>"; };
+		D85C0FA8211A9D9100B6F616 /* SDLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLabelTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,32 @@
 		D85A02DE211A919A009CF7AE /* TabDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D85A02F1211A91AC009CF7AE /* main */,
 				D85A02DF211A919A009CF7AE /* AppDelegate.swift */,
 				D85A02E1211A919A009CF7AE /* ViewController.swift */,
 				D85A02E3211A919A009CF7AE /* Main.storyboard */,
 				D85A02E6211A919E009CF7AE /* Assets.xcassets */,
 				D85A02E8211A919E009CF7AE /* LaunchScreen.storyboard */,
 				D85A02EB211A919E009CF7AE /* Info.plist */,
+				D85C0FA6211A9D6A00B6F616 /* SDLabelTableViewCellModel.swift */,
+				D85C0FA8211A9D9100B6F616 /* SDLabelTableViewCell.swift */,
 			);
 			path = TabDemo;
+			sourceTree = "<group>";
+		};
+		D85A02F1211A91AC009CF7AE /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D85A02F5211A91DF009CF7AE /* SDBaseCollectionDataModel.swift */,
+				D85A02F9211A91DF009CF7AE /* SDBaseCollectionViewCell.swift */,
+				D85A02F3211A91DF009CF7AE /* SDBaseDataModel.swift */,
+				D85A02F8211A91DF009CF7AE /* SDBaseTableView.swift */,
+				D85A02F4211A91DF009CF7AE /* SDBaseTableViewCell.swift */,
+				D85A02F2211A91DF009CF7AE /* SDBaseViewController.swift */,
+				D85A02F6211A91DF009CF7AE /* SDBaseViewModel.swift */,
+				D85A02F7211A91DF009CF7AE /* SDCollectionView.swift */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85A0300211A91DF009CF7AE /* SDBaseTableView.swift in Sources */,
 				D85A02E2211A919A009CF7AE /* ViewController.swift in Sources */,
+				D85A02FB211A91DF009CF7AE /* SDBaseDataModel.swift in Sources */,
+				D85A02FE211A91DF009CF7AE /* SDBaseViewModel.swift in Sources */,
+				D85A02FA211A91DF009CF7AE /* SDBaseViewController.swift in Sources */,
+				D85A02FC211A91DF009CF7AE /* SDBaseTableViewCell.swift in Sources */,
+				D85A0301211A91DF009CF7AE /* SDBaseCollectionViewCell.swift in Sources */,
+				D85C0FA9211A9D9100B6F616 /* SDLabelTableViewCell.swift in Sources */,
 				D85A02E0211A919A009CF7AE /* AppDelegate.swift in Sources */,
+				D85C0FA7211A9D6A00B6F616 /* SDLabelTableViewCellModel.swift in Sources */,
+				D85A02FD211A91DF009CF7AE /* SDBaseCollectionDataModel.swift in Sources */,
+				D85A02FF211A91DF009CF7AE /* SDCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
