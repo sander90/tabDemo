@@ -8,12 +8,12 @@
 
 `UITableViewCell` 有与之对应的model，这个model中存储着cell显示的内容，针对特殊的布局的逻辑，或者也可以放cell中的点击事件的回馈，等
 
-```func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+``func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let model = self.tList[indexPath.row];
         let cell : SDBaseTableViewCell = tableView.dequeueReusableCell(withIdentifier: model.getCellIdentifier(), for: indexPath) as! SDBaseTableViewCell;
         cell.loadCellModel(model);
         return cell;
-    }```
+    }``
 
 `model.getCellIdentifier()`获取cell在tableview中的唯一标示，这个也是model和cell联系起来的关键
 
